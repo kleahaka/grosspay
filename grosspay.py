@@ -1,0 +1,5 @@
+hours = input('Enter hours: ')
+rate = input('Enter rate: ')
+pay = float(hours)*float(rate)
+payf = round(pay,2)
+print(f"Pay: {payf}")
